@@ -1,8 +1,8 @@
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import type { Metadata } from 'next';
 import './globals.css';
-import Header from './layouts/Header';
-import Navbar from './layouts/Navbar';
+import Header from '../layouts/Header';
+import Navbar from '../layouts/Navbar';
 
 export const metadata: Metadata = {
     title: 'OAuth Admin',

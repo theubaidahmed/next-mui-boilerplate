@@ -38,17 +38,17 @@ const Sidebar = () => {
                     component={NavLink}
                     href='/'
                     sx={{ textDecoration: 'none', color: 'text.primary', py: 3 }}>
-                    <Image alt='#logo' name='logo.png' sx={{ height: '30px' }} />
-                    <Typography variant='h5' fontWeight={500} sx={{ ml: 1, color: '#808282' }}>
-                        OAuth
+                    <Image alt='#logo' name='logo.png' sx={{ height: '40px' }} />
+                    {/* <Typography variant='h5' fontWeight={500} sx={{ ml: 1, color: '#808282' }}>
+                        Next + Mui
                     </Typography>
                     <Typography
                         variant='h5'
                         fontWeight={400}
                         color='text.tertiary'
                         sx={{ ml: 1, color: '#949697' }}>
-                        Admin
-                    </Typography>
+                        Boilerplate
+                    </Typography> */}
                 </Box>
 
                 <Divider variant='middle' />

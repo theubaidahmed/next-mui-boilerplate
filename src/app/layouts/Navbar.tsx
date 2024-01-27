@@ -39,10 +39,10 @@ export default function Navbar({ children }: { children: React.ReactNode }) {
     const pathname = usePathname();
     const user = useMemo(
         () => ({
-            firstName: 'OAuth',
-            lastName: 'Admin',
-            email: 'authentication@oauth.com',
-            role: 'admin',
+            firstName: 'Boilerplate',
+            lastName: 'User',
+            email: 'boilerplate@user.com',
+            role: 'user',
         }),
         []
     );
@@ -269,7 +269,7 @@ export default function Navbar({ children }: { children: React.ReactNode }) {
                                             href='#'
                                             color='primary.main'
                                             display='block'>
-                                            My OAuth account
+                                            My Account
                                         </Typography>
                                         <Typography
                                             variant='caption'
@@ -326,7 +326,6 @@ export default function Navbar({ children }: { children: React.ReactNode }) {
                         display: { xs: 'none', xm: 'block' },
                         p: 0,
                         '& .MuiDrawer-paper': {
-                            mt: 1,
                             boxShadow: 'none',
                             borderRight: 'none',
                             width: drawerWidth,
