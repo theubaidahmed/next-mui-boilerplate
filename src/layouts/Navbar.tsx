@@ -25,7 +25,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Image from '../components/Image';
 
 //services
-import { useMenu } from '../hooks/useMenu';
+import { useMenu } from '../app/hooks/useMenu';
 import { deleteCookie } from 'cookies-next';
 import Sidebar from './Sidebar';
 import { Links } from '../data/sidebar';

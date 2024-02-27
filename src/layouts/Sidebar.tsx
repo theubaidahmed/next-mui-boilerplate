@@ -17,7 +17,7 @@ import React from 'react';
 import Image from '../components/Image';
 import { Dashboard, Account } from '../data/sidebar';
 import MicrophoneIcon from '../components/MicrophoneIcon';
-import useModal from '../hooks/useModal';
+import useModal from '../app/hooks/useModal';
 import Feedback from './Feedback';
 import NavLink from '../components/NavLink';
 

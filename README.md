@@ -4,7 +4,7 @@ This Repo contains essential components that are required for fast startup of yo
 
 ### Overview
 
-![Alt text](/public/images/preview.png)
+![Alt text](/preview/preview.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
