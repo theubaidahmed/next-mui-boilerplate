@@ -2,7 +2,7 @@
 
 import React, { Dispatch, createContext, useCallback, useContext } from 'react';
 import { CssBaseline } from '@mui/material';
-import useSnack, { SnackAction } from '@/app/hooks/useSnack';
+import useSnack, { SnackAction } from '@/hooks/useSnack';
 import ThemeContextProvider from '@/theme';
 
 interface HeaderContextProps {
